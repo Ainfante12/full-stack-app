@@ -13,6 +13,31 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+
+/* Utilites */
+li{
+  list-style-type: none;
+}
+
+.links{
+  text-decoration: none;
+  color:white;
+  border-style: inset;
+  padding: 0 .90rem;
+  
+}
+
+.container-heading{
+  background: gray;
+  padding: 2rem;
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  top: 0;
+  border-style: outset;
+}
+
+
 /* braulio */
 /* code */
 
