@@ -8,75 +8,10 @@
   box-sizing: border-box;
 }
 
-/* Utilities */
 body{
   line-height: 1.4;
   font-family: 'Roboto', sans-serif;
-  
-}
-li{
-  list-style-type: none;
-}
-
-.links{
-  text-decoration: none;
-  color:white;
-  border-style: inset;
-  padding: 0 .90rem;
-  
-}
-
-.container-heading{
-  background: gray;
-  padding: 2rem;
-  position: sticky;
-  display: flex;
-  justify-content: space-evenly;
-  top: 0;
-  border-style: outset;
-}
-
-.link_style .links{
-  background: gray;
-  padding: 1rem;
-}
-
-/* Braulio */
-/* Campuses.js Box: All Campuses display info */
-.container-allcampuses{
-  display:flex;
-  margin: 0.5rem 0.5rem;
-  /* border-style: outset; */
-}
-
-.name-title{
-  color: white;
-}
-.container-box{
-  display: flex;
-  background: grey;
-  padding: 0.5rem 1rem;
-  border-radius: 1rem;
-  border-style: inset;
-}
-.edit-button{
-  margin-left: 10rem;
-  padding: .2rem .9rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-.delete-button{
-  margin-left: 2rem;
-  padding: .2rem .5rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-.container-header{
-  display: flex;
-  justify-content: space-between;
-  /* margin: 1rem; */
-  padding: 1rem 1rem;
-  background: darkgray;
+  background-color: steelblue;
 }
 .add-campus{
   background:white;
@@ -124,3 +59,26 @@ li{
 
 
 
+
+/* Utilites */
+li{
+  list-style-type: none;
+}
+
+.links{
+  text-decoration: none;
+  color:white;
+  border-style: inset;
+  padding: 0 .90rem;
+  
+}
+
+.container-heading{
+  background: gray;
+  padding: 2rem;
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  top: 0;
+  border-style: outset;
+}

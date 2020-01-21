@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import {Route, Link, Switch, BrowserRouter as Router} from 'react-router-dom';
+import NewStudent from './NewStudent';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component{
+  render(){
+    return(
+    <form >
+      <div className="students">
+        <h1> New Student:</h1>
+        <NewStudent handleNewStudent={this.handleNewStudent} />
+       
+      </div>
+    </form> 
+    )
+  }
 }
 
 export default App;
+// <button className="btn">Add Student</button>
+// <input type="text" placeholder="Enter Students Name" />
+// <Router>
+// <div>
+// <Link to="/NewStudent">Click Here</Link>
+// <Switch>
+//   <Route path="/NewStudent" component={NewStudent}></Route>
+// </Switch>
+// </div>
+// </Router>

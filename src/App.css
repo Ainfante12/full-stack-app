@@ -1,38 +1,39 @@
-.App {
+body {
+  
+}
+
+#lists li{
+  list-style-type: none;
+  }
+
+/* Student page */
+.navbar-left{
+  float: right;
+  padding-right: 20px;
+}
+
+.students{
+  
+  text-decoration: underline;
+  padding: 20px;
+}
+
+.btn{
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+/* Home page */
+.navbar{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-right{
+  margin-left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* New Student Page */
+.label{
+  text-decoration: none;
 }
