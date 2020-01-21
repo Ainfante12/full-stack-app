@@ -20,10 +20,13 @@ li{
 
 .links{
   text-decoration: none;
-  color:white;
+  background: white;
+  color:gray;
   border-style: inset;
   padding: 0 .90rem;
-  
+}
+.links:hover{
+  font-size: 17px;
 }
 
 .container-heading{
@@ -43,34 +46,22 @@ li{
 
 /* Braulio */
 /* Campuses.js Box: All Campuses display info */
+
 .container-allcampuses{
-  display:flex;
-  margin: 0.5rem 0.5rem;
-  /* border-style: outset; */
+  background: darkgray;
 }
 
 .name-title{
   color: white;
 }
-.container-box{
+/* .container-box{
   display: flex;
   background: grey;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   border-style: inset;
-}
-.edit-button{
-  margin-left: 10rem;
-  padding: .2rem .9rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-.delete-button{
-  margin-left: 2rem;
-  padding: .2rem .5rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
+} */
+
 .container-header{
   display: flex;
   justify-content: space-between;
@@ -89,25 +80,54 @@ li{
 }
 
 /* Box.js file */
+.container-buttons{
+  margin-top: 1rem;
+}
+
+.edit-button{
+  /* margin-left: .2rem; */
+  padding: .2rem .9rem;
+  border-radius: 0.5rem;
+  background: gray;
+  color: white;
+  border-style: outset solid;
+  cursor: pointer;
+}
+.delete-button{
+  background: gray;
+  margin-left: 2rem;
+  padding: .2rem .5rem;
+  border-radius: 0.5rem;
+  border-style: outset solid;
+  color: white;
+  cursor: pointer;
+}
+
+.container-box-camp{
+  background: white;
+  display: flex;
+  margin: 1rem;
+  border-style: inset solid;
+  width: 40%;
+}
 .display-box{
+  /* display: flex; */
   margin-left: 1.5rem;
 }
-.container-box-camp{
-  display: flex;
-}
+
 .info{
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 
 }
 .info, .campus{
-  color: whitesmoke;
+  color: black
 }
 .campus{
   cursor: pointer;
 }
 .image{
-  padding: 0 3rem;
+  padding: .5rem ;
 }
 
 
@@ -120,7 +140,3 @@ li{
 
 
 /* Angeline */
-
-
-
-

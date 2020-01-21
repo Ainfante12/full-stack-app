@@ -1,22 +1,34 @@
 import React from 'react';
 
 const box = (props) => {
+    const values = props.items
     return(
-        <div className='container-box-camp'>
-            <div className='image'>
-                <img src={props.pic} alt='' width='50' height='50'></img>
-            </div>
-            <div className='display-box'>
-                <div className='campus'>
-                    {props.campus}
+        values.map(item =>(
+            <div key={item.id} className='container-box-camp'>
+                <div className='image'>
+                    <img src={item.images.original.url} alt='' width='100' height='100'></img>
+                    
                 </div>
-                <div className='info'>
-                    {props.items.length}
+                <div className='display-box'>
+                    <div className='campus'>
+                        {item.title}
+                    </div>
+                    <div className='info'>
+                        <h4>{props.items.length} Students</h4> 
+                    </div>
+                    <div className='container-buttons'>
+                        <button className='edit-button' >Edit</button>
+                        <button className='delete-button' >Delete</button>
+                    </div>
+                    
                 </div>
-            </div>
+                {/* <br></br> */}
+                
             
-            
-        </div>
+             </div>  
+             
+        ))
+        
             
     )
 
